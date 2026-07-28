@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Stopwatch</title>
+
+    <link rel="stylesheet" href="menu.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ========== Splash Screen ========== -->
+
+<div id="splash">
+
+    <div class="watch">
+
+        <div class="outer-ring"></div>
+
+        <div class="inner-ring">
+
+            <div class="center-dot"></div>
+
+            <div class="needle"></div>
+
+        </div>
+
+    </div>
+
+    <h1>PRO STOPWATCH</h1>
+
+    <p>Precision • Speed • Accuracy</p>
+
+    <div class="loader">
+        <span></span>
+    </div>
+
+</div>
+
+<!-- ========== Main App ========== -->
+
+<div class="container hide">
+
+<header>
+
+<h2>
+<i class="fa-solid fa-stopwatch"></i>
+Pro Stopwatch
+</h2>
+
+<button id="themeBtn">
+<i class="fa-solid fa-moon"></i>
+</button>
+
+</header>
+
+<div class="timer">
+
+<span id="display">
+00:00:00.000
+</span>
+
+</div>
+
+<div class="controls">
+
+<button id="start">
+<i class="fa-solid fa-play"></i>
+Start
+</button>
+
+<button id="pause">
+<i class="fa-solid fa-pause"></i>
+Pause
+</button>
+
+<button id="lap">
+<i class="fa-solid fa-flag"></i>
+Lap
+</button>
+
+<button id="reset">
+<i class="fa-solid fa-rotate-left"></i>
+Reset
+</button>
+
+</div>
+
+<div class="stats">
+
+<div class="card">
+<h3>Total Laps</h3>
+<p id="totalLaps">0</p>
+</div>
+
+<div class="card">
+<h3>Best Lap</h3>
+<p id="bestLap">--</p>
+</div>
+
+<div class="card">
+<h3>Worst Lap</h3>
+<p id="worstLap">--</p>
+</div>
+
+</div>
+
+<div class="lap-section">
+
+<div class="lap-title">
+
+<h3>
+<i class="fa-solid fa-list"></i>
+Lap History
+</h3>
+
+<button id="clearLaps">
+Clear
+</button>
+
+</div>
+
+<ul id="laps"></ul>
+
+</div>
+
+</div>
+
+<script src="menu.js"></script>
+
+</body>
+</html>
