@@ -1,35 +1,56 @@
-# ⏱️ Stopwatch
+# ⏱️ STOP-WATCH
 
-A responsive and interactive stopwatch web application built using
-HTML, CSS and JavaScript.
+### 🚀 A Modern & Responsive Stopwatch Web Application
+
+A simple, interactive and responsive stopwatch built using **HTML5, CSS3 and JavaScript**.  
+Designed with a clean user interface and smooth controls for an enjoyable experience.
+
+---
 
 ## ✨ Features
 
-- ▶️ Start stopwatch
-- ⏸️ Pause stopwatch
-- 🔄 Reset stopwatch
-- ⏱️ Accurate time tracking
-- 📱 Responsive design
-- 🎨 Clean and modern UI
+- ▶️ Start the stopwatch
+- ⏸️ Pause the stopwatch
+- 🔄 Reset the stopwatch
+- ⏱️ Real-time time tracking
+- 📱 Fully responsive design
+- 🎨 Clean and modern interface
+- ⚡ Fast and lightweight
+- 🖥️ Works directly in the browser
 
-## 🛠️ Technologies Used
+---
 
-- HTML5
-- CSS3
-- JavaScript
+## 🛠️ Tech Stack
+
+<p align="left">
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+</p>
+
+---
+
+## 📸 Project Preview
+
+<!-- Add your project screenshot here -->
+
+---
 
 ## 🌐 Live Demo
 
-👉 Add your GitHub Pages live link here
+🚀 **[View Live Project](YOUR_LIVE_DEMO_LINK)**
 
-## 📸 Preview
-
-Add a screenshot of the project here.
+---
 
 ## 📂 Project Structure
 
 ```text
 STOP-WATCH/
+│
 ├── index.html
 ├── style.css
 └── script.js
