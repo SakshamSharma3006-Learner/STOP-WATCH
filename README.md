@@ -42,7 +42,9 @@ Designed with a clean user interface and smooth controls for an enjoyable experi
 
 ## 🌐 Live Demo
 
-🚀 **[View Live Project](YOUR_LIVE_DEMO_LINK)**
+## 🌐 Live Demo
+
+🚀 **[View Stopwatch live](https://sakshamsharma3006-learner.github.io/STOP-WATCH/)**
 
 ---
 
